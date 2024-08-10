@@ -1,7 +1,10 @@
 /*
-Problem: Match the pattern P in given string T
+Problem: Match/find the occurrence of pattern P in given string T
+
 In Naive approach we are incrementing window by single step TC: O(N*M)
 In Kmp Algorithm we are shifting by k steps TC:O(N+M)
+Lps[]-> what is the length of the longest proper prefix (from start) which is also a suffix (from end)
+
 Step1: Build Prefix Table
 Step2: Match the pattern
 */
